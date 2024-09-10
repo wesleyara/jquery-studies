@@ -1,4 +1,4 @@
-$("#sum").click(() => {
+$("#sum").on("click",() => {
   const value1 = $("#value1").val();
   const value2 = $("#value2").val();
 
